@@ -46,8 +46,8 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-brand-50 via-white to-slate-100">
-      <header className="mx-auto max-w-7xl px-6 py-6">
-        <nav className="flex items-center justify-between rounded-2xl border border-slate-200 bg-white/80 px-5 py-4 backdrop-blur-sm shadow-sm">
+      <header className="w-full">
+        <nav className="flex items-center justify-between w-full border border-slate-200 bg-white/80 py-4 backdrop-blur-sm shadow-sm">
           <Link href="/" className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-700 text-lg font-bold text-white">E</div>
             <div>
